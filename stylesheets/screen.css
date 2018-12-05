@@ -1,0 +1,132 @@
+@font-face {
+    font-family: sporting;
+    src:  url('../font/sporting_grotesque_normal.otf') format('opentype');
+}
+
+p{color: #000080;}
+
+p a{text-decoration: none;color: #000080;}
+
+p a:hover{font-style: italic;}
+
+body{
+	margin-top: -30px;
+}
+
+@media (min-width: 768px) {
+
+header{
+	position: fixed;
+	margin-top: 45px;
+	width: 100%;
+	margin-left: 20px;
+	font-family: Helvetica;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	line-height: 4px;
+	z-index: 1;
+}
+
+.paper{font-family: sporting; letter-spacing: 0.02em;}
+.names{ margin-top: 30px; margin-right: 350px;}
+.contacts{margin-top: 30px;}
+
+
+
+.restarting{
+	position: fixed;
+	max-width: 600px;
+	margin-left: 350px;
+	margin-right: 10px;
+	margin-top: 0px;
+	font-family: sporting;
+	font-size: 48px;
+	line-height: 52px;
+	z-index: 2;
+}
+
+.intro{
+	position: fixed;
+	max-width: 600px;
+	margin-top: 140px;
+	margin-left: 350px;
+	margin-right: 10px;
+	font-family: sporting;
+	font-size: 26px;
+	line-height: 34px;
+	z-index: 3;
+}
+	
+img{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 560px;
+	margin-bottom: 8%;
+	width: 50%;
+	z-index: 10;
+}
+
+ }
+
+@media (max-width: 920px) {
+	 body {
+        background-color: white; 
+    }
+
+	.restarting{
+		margin-top: 20px;
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+    .intro{
+    	font-size: 20px;
+    	line-height: 28px;
+    	margin-top: 100px;
+    }
+
+}    
+
+
+@media (max-width: 767px) {
+   
+   body {
+        background-color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+		margin-right: 5%;
+    }
+
+	.restarting{
+	position: relative;
+	font-family: sporting;
+	font-size: 28px;
+	line-height: 34px;
+
+	}
+
+	.intro{
+	position: relative;
+	font-family: sporting;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+header{
+	position: relative;
+	font-family: Helvetica;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	line-height: 4px;
+}
+
+.paper{font-family: sporting; letter-spacing: 0.02em;}
+.names{ margin-top: 20px;}
+.contacts{margin-top: 20px;}
+
+}
+
+
+
+	
+
