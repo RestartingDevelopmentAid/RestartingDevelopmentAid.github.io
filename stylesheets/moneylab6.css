@@ -1,0 +1,160 @@
+@font-face {
+    font-family: sporting;
+    src:  url('../font/sporting_grotesque_normal.otf') format('opentype');
+}
+
+p{color: #000080;}
+
+p a{text-decoration: none;color: #000080;}
+
+p a:hover{font-style: italic;}
+
+h1{color: #000080; 	font-family: sporting;}
+
+
+
+
+body{
+	margin-top: -20px;
+}
+
+@media (min-width: 768px) {
+
+header{
+	position: fixed;
+	margin-top: 5px;
+	width: 100%;
+	margin-left: 20px;
+	font-family: Helvetica;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	line-height: 4px;
+	z-index: 1;
+}
+
+.paper{font-family: sporting; letter-spacing: 0.02em;}
+.names{ margin-top: 30px; margin-right: 350px;}
+.contacts{margin-top: 30px;}
+img{
+	margin-top: 30px;
+	width: 290px;
+	z-index: 10;
+}
+
+
+.restarting{
+	position: relative;
+	max-width: 600px;
+	margin-left: 350px;
+	margin-right: 10px;
+	margin-top: 0px;
+	font-family: sporting;
+	font-size: 48px;
+	line-height: 52px;
+	z-index: 2;
+}
+
+h1{
+	font-size: 20px;
+	font-weight: normal;
+	}
+
+.intro{
+	position: relative;
+	max-width: 600px;
+	margin-top: 65px;
+	margin-left: 350px;
+	margin-right: 10px;
+	font-family: helvetica;
+	font-size: 18px;
+	line-height: 24px;
+	z-index: 3;
+}
+
+	
+
+ }
+
+@media (max-width: 920px) {
+	 body {
+        background-color: white; 
+    }
+
+	.restarting{
+		margin-top: 20px;
+		font-size: 30px;
+		line-height: 32px;
+	}
+
+	h1{font-size: 14px;}
+
+    .intro{
+    	font-size: 18px;
+    	line-height: 22px;
+    	margin-top: 100px;
+    	font-family: Helvetica;
+    }
+
+	.paper{font-family: sporting; letter-spacing: 0.02em;}
+
+img{
+	margin-top: 30px;
+	width: 35%;
+	z-index: 10;
+}
+
+}    
+
+
+@media (max-width: 767px) {
+   
+   body {
+        background-color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+		margin-right: 5%;
+    }
+
+	.restarting{
+	position: relative;
+	font-family: sporting;
+	font-size: 30px;
+	line-height: 34px;
+	margin-top: 40px;
+
+	}
+
+h1{font-size: 12px;}
+
+	.intro{
+	position: relative;
+	font-family: helvetica;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+header{
+	position: relative;
+	font-family: Helvetica;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	line-height: 4px;
+}
+
+.paper{font-family: sporting; letter-spacing: 0.02em;}
+.names{ margin-top: 20px;}
+.contacts{margin-top: 20px;}
+
+img{
+	margin-top: 30px;
+	width: 55%;
+	z-index: 10;
+}
+
+}
+
+
+
+	
+
